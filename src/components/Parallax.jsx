@@ -17,7 +17,7 @@ return(
     <div  
     className="absolute inset-0 w-full h-screen -z-50"
     style={{
-    backgroundImage: "url(/assets/bg.jpg)",
+    backgroundImage: "url(./assets/bg.jpg)",
     backgroundPosition: "bottom",
     backgroundSize: "cover",
     }}/>
@@ -34,7 +34,7 @@ return(
     <motion.div
     className="absolute inset-0 w-full h-screen -z-30"
     style={{
-    backgroundImage: "url(/assets/cloud.png)",
+    backgroundImage: "url(./assets/cloud.png)",
     backgroundPosition: "bottom",
     backgroundSize: "cover",
     y: planetsX,
@@ -55,7 +55,7 @@ return(
     <motion.div  
     className="absolute inset-0 w-full h-screen -z-40 "
     style={{
-    backgroundImage: "url(/assets/bg-1.png)",
+    backgroundImage: "url(./assets/bg-1.png)",
     backgroundPosition: "top",
     backgroundSize: "cover",
     y: mountain2Y,

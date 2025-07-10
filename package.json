@@ -1,6 +1,7 @@
 {
   "name": "vite-project",
   "private": true,
+  "homepage": "https://Rei-sama077.github.io/React-Portfolio/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -8,7 +9,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d dist -r https://github.com/Rei-sama077/React-Portfolio.git",
     "preview": "vite preview"
   },
   "dependencies": {

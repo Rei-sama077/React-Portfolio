@@ -1,7 +1,7 @@
 
 @font-face {
   font-family: "Persona";
-  src: url("..  /assets/Persona5MenuFontPrototype-Regular.ttf");
+  src: url("/React-Portfolio/assets/Persona5MenuFontPrototype-Regular.ttf");
   font-weight: normal;
   font-style: normal;
 }
@@ -15,7 +15,7 @@
     z-index: 0;
     background-image:
     linear-gradient(rgba(0, 0, 0, 0.7) 100%, transparent 100%),
-    url("/assets/bg-5.gif");
+    url("/React-Portfolio/assets/bg-5.gif");
 
     .progress{
     position: sticky;
