@@ -184,19 +184,34 @@ const items = [
     {
         id: 26,
         title: "Day 27 (July 8, 2025)",
-        subtitle: "Verifying Uploads and Chasing Down Hidden Errors",
-        img: "assets/projects/5.png",
-        desc: "I focused on troubleshooting CSV upload and processing issues. I found strange characters in some values, possibly from hidden or unsupported symbols. I reviewed multiple folders to ensure proper field alignment and confirmed that several files processed correctly across different data sources. I also noticed that files left unprocessed too long trigger a “Retry Processing” button instead of “Process File.” Additionally, I encountered a console error after one file initially uploaded but failed on continue. I rechecked previous folders and confirmed that earlier bugs had been fixed.",
+        subtitle: "Website Updates and WordPress Blog Management",
+        img: "assets/projects/29.png",
+        desc: "Today, I was tasked by Mr. Ryan to focus on updates for the Luca Taxes and Bookkeeping website. I reviewed the client's feedback and updated Angie’s headshot and added a new headshot and title for Lora Florenz Benito as “Staff Accountant.” I also reviewed the calculator section based on a Loom video and clarified that the blog posts provided were meant for the blog page, not the calculator section. Lastly, I explored how blog posts are created and categorized in WordPress.",
     },
     {
         id: 27,
         title: "Day 28 (July 9, 2025)",
-        subtitle: "Verifying Uploads and Chasing Down Hidden Errors",
-        img: "assets/projects/5.png",
-        desc: "I focused on troubleshooting CSV upload and processing issues. I found strange characters in some values, possibly from hidden or unsupported symbols. I reviewed multiple folders to ensure proper field alignment and confirmed that several files processed correctly across different data sources. I also noticed that files left unprocessed too long trigger a “Retry Processing” button instead of “Process File.” Additionally, I encountered a console error after one file initially uploaded but failed on continue. I rechecked previous folders and confirmed that earlier bugs had been fixed.",
+        subtitle: "Site Review and UX Enhancements",
+        img: "assets/projects/30.png",
+        desc: "Today, I revisited the It’s Hotdog Time website to check for any pending tasks or necessary updates. I focused on improving the overall user experience (UX), making the site more polished and mobile-friendly.",
     },
-
-];      
+ 
+    {
+        id: 28,
+        title: "Day 29 (July 10, 2025)",
+        subtitle: "API Integration Planning for Masahista Website",
+        img: "assets/projects/31.png",
+        desc: "Today, I checked Ma’am Mary’s message via Hostinger about integrating Juvonno’s API into the Masahista website. After Sir Van asked if I could handle it, I began exploring how to connect the WordPress lead form with the external API. I reviewed the documentation and started testing possible integration methods, but the implementation is still in progress.",
+    },
+ 
+    {
+        id: 29,
+        title: "Day 30 - 35 (July 11-18, 2025)",
+        subtitle: "Finalizing Website Design & QA Tasks",
+        img: "assets/projects/32.png",
+        desc: "Throughout these sessions, I was mostly focused on finalizing the It’s Hotdog Time website for portfolio inclusion. I improved the UX by styling the sticky header, adjusting logo size, adding hover effects, and enhancing mobile responsiveness. I also organized menu items using Kadence Blocks, refined the layout of food and drinks sections, and moved owner info to the About Us page for a cleaner structure. The Menu page was finalized by merging and aligning content properly. Additionally, I started doing QA for the Screen Warehouse website. I reviewed client requests, clarified task requirements, and explored the page builder. I manually added autoplay functionality to address a module limitation and began getting familiar with the platform.",
+    },
+];          
 
 const Single = ({item}) => {
     const ref = useRef();

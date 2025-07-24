@@ -1,6 +1,9 @@
 import Card from "../components/Card";
 import { useRef } from "react";
-
+import { Globe } from "../components/globe";
+import { Frameworks } from "../components/Frameworks";
+import CopyEmailButton from "../components/CopyEmailBtn";
+ 
 const About = () => {
     const grid2Container = useRef();
   return (
@@ -14,7 +17,7 @@ const About = () => {
     className="absolute inset-0 w-full h-full object-cover"
     />
     </div>  
-      <div className="z-10 mt-auto text-left "> 
+      <div className="z-10 mt-auto text-left ">
     <p className="headtext"> Hi, I'm Marjorie P. Matilos</p>
     <p className="subtext">
         I developed my UI/UX and frontend dev skills to deliver dynamic and responsive software and web applications.
@@ -78,18 +81,38 @@ const About = () => {
       <div className="z-10 w-[50%]">
       <p className="headtext">Time Zone</p>
       <p className="subtext">
-        I'm based in Cebu, and working for OJT in Ferret9 Creative9 Solutions
+        I am currently based in Cebu and undergoing my On-the-Job Training (OJT) at Ferret9 Creative Solutions.
       </p>
       </div>
-    <figure className="absolute left-[30%] top-[10%]"></figure>
+    <figure className="absolute left-[30%] top-[10%]">
+    <Globe />
+    </figure>
     </div>
     {/* Grid 4*/}
-    <div className= "grid-default-color grid-4 "></div>
+    <div className= "grid-default-color grid-4 ">
+      <div className="flex flex-col items-center justify-center gap-4 size-full">
+            <p className="text-center headtext">
+              Do you want to start a project together?
+            </p>
+            <CopyEmailButton />
+          </div>
+    </div>
     {/* Grid 5*/}
-    <div className= "grid-default-color grid-5 "></div>
+    <div className= "grid-default-color grid-5 ">
+      <div className="z-10 w-[50%]">
+            <p className="headText">Teck Stack</p>
+            <p className="subtext">
+              I specialize in a variety of languages, frameworks, and tools taht
+              allow me to build robust and scalable applications
+            </p>
+          </div>
+          <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125">
+            <Frameworks />
+          </div>
+    </div>
     </div>
     </section>
   )
 }
-
+ 
 export default About

@@ -7,17 +7,17 @@ import Portfolio from "./Sections/Portfolio";
 
 const App = () => {
   return (
-    <div classname = "container mx-auto max-w-7xl">
+    <div className = "container mx-auto max-w-7xl">
     <Navbar />
     <Hero />
     <About />
     <Portfolio />
       <section className= "min-h-screen"  />
+      {/* <section className= "min-h-screen"  />
       <section className= "min-h-screen"  />
       <section className= "min-h-screen"  />
       <section className= "min-h-screen"  />
-      <section className= "min-h-screen"  />
-      <section className= "min-h-screen"  />
+      <section className= "min-h-screen"  /> */}
     {/* projects */}
     {/* experience */}
     {/* testimonial */}
